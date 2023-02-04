@@ -1,0 +1,409 @@
+/* All */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+p,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    font-size: .9em;
+}
+
+nav ul i {
+    font-size: .7em;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.searchSection {
+    border: 1px solid rgb(186, 186, 186);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.searchSection input,
+button {
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+.searchSection input {
+    border-right: 1px solid grey;
+}
+
+.rightSide button p {
+    font-weight: 450;
+}
+
+.rightSide .signUp {
+    background-color: #108a00;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Extra Links */
+
+.extraLinks ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0 20px;
+    font-size: .9em;
+    padding: 20px 23px;
+}
+
+/* ======================== */
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+/* Work Section */
+
+.workSec {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.workSec .contentSide {
+    flex: 1.5;
+    padding: 10px;
+}
+
+.workSec .contentSide h1 {
+    color: #108a00;
+    font-size: 4.4em;
+    font-weight: 500;
+}
+
+
+.workSec .contentSide p {
+    color: #5e6d55;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.workSec .contentSide button {
+    background-color: #108a00;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.trustedSec {
+    margin: 80px 0;
+}
+
+.trustedSec p {
+    font-size: 1em !important;
+    font-weight: normal !important;
+}
+
+.trustedSec img {
+    margin: 10px 10px;
+}
+
+.imgSide {
+    text-align: center;
+    flex: 1.1;
+}
+
+/* Talent Section */
+
+.talentSec {
+    margin: 50px 10px;
+}
+
+.talentSec h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.talentSec p {
+    margin: 10px 0;
+}
+
+.talentSec p a {
+    color: #108a00;
+}
+
+.cardSec {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.cards {
+    background-color: rgb(242, 247, 242);
+    padding: 0 20px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.cards:hover {
+    background-color: #e4ebe4;
+}
+
+.cards .heading {
+    font-size: 1.5em;
+}
+
+.cardTxt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.cardTxt p {
+    color: grey;
+}
+
+.cardTxt i {
+    color: #108a00;
+}
+
+/* Enterprise Suite Section */
+
+.workFlow {
+    display: flex;
+    margin: 80px 0;
+}
+
+.workFlow .workTxt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #13544e;
+    padding: 30px;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.workFlow .workTxt .workHead p {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.workFlow .workTxt .workHead h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.workFlow .workTxt h3 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.workFlow .workTxt .iconTxt {
+    font-size: 1.2em;
+}
+
+.workFlow .workTxt .iconTxt i {
+    color: #91e6b3;
+    margin: 12px;
+}
+
+.workFlow .workTxt .learnMore {
+    padding: 11px 30px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.workFlow .workImg img {
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* Client Section */
+
+.clientSec {
+    background-image: url('./images/hero-2.webp');
+    width: 79vw;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 50px;
+    margin-top: -25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.contentTxt {
+    width: 40%;
+    padding: 25px;
+}
+
+.contentTxt h6 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.contentTxt h1 {
+    margin-top: 100px;
+    font-size: 4.3em;
+    font-weight: 500;
+}
+
+.contentTxt p {
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+.contentCard {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.clientSec .clientCard {
+    background-color: #14a800;
+    padding: 15px;
+    border-radius: 10px;
+    width: 31.5%;
+    height: 140px;
+}
+
+
+.clientSec .clientCard:hover {
+    background-color: white;
+    color: #108a00;
+    transition: .6s;
+}
+
+.clientSec .clientCard h1 {
+    font-size: 2em;
+}
+
+.clientSec .clientCard p {
+    margin-top: 10px;
+}
+
+.clientSec .clientCard p sup {
+    font-size: .5em;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1087px) {
+    .workSec {
+        flex-direction: column;
+    }
+
+    .workSec .imgSide img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .workFlow {
+        flex-direction: column-reverse;
+    }
+
+    .workFlow .workImg img {
+        width: 100%;
+    }
+
+    .workFlow .workTxt {
+        margin-top: -100px;
+    }
+
+    .contentTxt {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 995px) {
+
+    .res,
+    .searchSection {
+        display: none;
+    }
+
+    .extraLinks ul {
+        flex-direction: column;
+    }
+
+    .contentTxt h1 {
+        margin-top: 30px;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .clientSec .clientCard h1 {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 581px) {
+
+    .res,
+    .searchSection {
+        display: none;
+    }
+
+    .extraLinks ul {
+        flex-direction: column;
+    }
+
+    .contentCard {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .clientSec .clientCard {
+        width: 100% !important;
+    }
+
+}
